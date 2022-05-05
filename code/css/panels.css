@@ -4,13 +4,13 @@
     }
 }
 
-@media (max-device-width:590px) {
+@media (min-device-width:300px) {
     body {
         font-size: 9px;
     }
 }
 
-@media (max-device-width:800px) {
+@media (min-device-width:800px) {
     .block {
         width: fit-content;
     }
@@ -19,7 +19,7 @@
     }
 }
 
-@media(max-device-width:1024px) {
+@media(min-device-width:1024px) {
     .cont,
     .container,
     .main_obl {
@@ -27,7 +27,7 @@
     }
 }
 
-@media(max-device-width:768px) {
+@media(min-device-width:768px) {
     body {
         font-size: 13px;
     }
@@ -48,7 +48,7 @@
     }
 }
 
-@media(max-device-width:1024px) or (max-device-width:768px) {
+@media(min-device-width:1024px) or (max-device-width:768px) {
     .block,
     .name,
     .langs,
@@ -77,8 +77,7 @@ body {
 
 .name {
     position: relative;
-    left: 40vw;
-    top: 0;
+    float: right;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     border: 1px solid white;

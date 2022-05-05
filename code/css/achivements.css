@@ -45,13 +45,13 @@ figcaption {
     height: fit-content;
 }
 
-@media(max-width:1024px) {
+@media(min-device-width:1024px) {
     .container {
         height: 71vh;
     }
 }
 
-@media(max-width:768px) {
+@media(min-device-width:768px) {
     .container {
         height: 73vh;
     }
