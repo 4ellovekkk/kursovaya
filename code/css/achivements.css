@@ -1,0 +1,58 @@
+.container {
+    height: 69vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.medals {
+    flex: 1 1;
+    border: 1px solid black;
+    border-radius: 30px;
+    flex-direction: column;
+    font-size: 1.3em;
+    margin: 0.7vh 0.5vw 0.7vh 0.5vw;
+    padding: 0.5vh 0.5vw 0.2vh 0.5vw;
+    align-self: center;
+    height: 60vh;
+    justify-content: center;
+    align-items: baseline;
+}
+
+div.container>div {
+    display: flex;
+}
+
+figure>img {
+    height: 15vh;
+    width: 8vw;
+    break-after: always;
+    margin-bottom: 5vh;
+}
+
+figure {
+    width: 20vw;
+    padding: 0.2vh 0.2vw 0.2vh 0.4vw;
+}
+
+figcaption {
+    margin-top: 5vh;
+    width: 20vw;
+}
+
+.medals>div {
+    display: block;
+    flex: 1 1 20vw;
+    height: fit-content;
+}
+
+@media(max-width:1024px) {
+    .container {
+        height: 71vh;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        height: 73vh;
+    }
+}

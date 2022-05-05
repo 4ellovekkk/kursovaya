@@ -1,0 +1,51 @@
+{
+    "cup1": {
+        "name": "Чашка сереневая металлическая",
+        "size": "0.25л",
+        "price": "8p",
+        "image": "pics/cups_pictures/purple_metal.png"
+    },
+    "cup2": {
+        "name": "Чашка керамическая Созвездия",
+        "size": "0.33л",
+        "price": "10p",
+        "image": "pics/cups_pictures/satr_cup.png"
+    },
+    "cup3": {
+        "name": "Чашка стеклянная голова",
+        "size": "0.3л",
+        "price": "10p",
+        "image": "pics/cups_pictures/skull_cup.png"
+    },
+    "cup4": {
+        "name": "Чашка керамическая Конструктор",
+        "size": "0.4л",
+        "price": "20p",
+        "image": "pics/cups_pictures/lego_cup.png"
+    },
+    "cup5": {
+        "name": "Стакан красный стеклянный",
+        "size": "0.25л",
+        "price": "11p",
+        "image": "pics/cups_pictures/red_nohand.png"
+    },
+    "cup6": {
+        "name": "Чашка для левшей белая керамическая",
+        "size": "0.4л",
+        "price": "10p",
+        "image": "pics/cups_pictures/left-handed_cup-removebg.png"
+    },
+    "cup7": {
+        "name": "Чашка для правшей белая керамическая",
+        "size": "0.4л",
+        "price": "8p",
+        "image": "pics/cups_pictures/right-handed_cup-removebg.png"
+    },
+    "cup8": {
+        "name": "Average tea enjoyer",
+        "size": "10л",
+        "price": "80р",
+        "image": "pics/cups_pictures/tea_enjoyer.png"
+    }
+
+}
