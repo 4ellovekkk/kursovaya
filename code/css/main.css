@@ -13,13 +13,13 @@ body>* {
 /*Наполнение*/
 
 .cont {
+    margin-top: 7vh;
     justify-content: space-around;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 98vw;
     height: 60vh;
-    margin-top: 4vh;
 }
 
 section {

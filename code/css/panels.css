@@ -66,7 +66,8 @@ body {
     border: 2px solid black;
     border-radius: 2vw;
     opacity: 90%;
-    width: 90%;
+    width: /*90%;*/
+    fit-content;
     height: fit-content;
     text-align: center;
     font-size: 1.17em;
@@ -76,8 +77,10 @@ body {
 }
 
 .name {
-    position: relative;
-    float: right;
+    position: absolute;
+    left: 20vw;
+    top: 0;
+    z-index: 2;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
     border: 1px solid white;
@@ -123,8 +126,8 @@ svg {
 #ic_1,
 #ic_2,
 #ic_3 {
-    margin-top: 0.5vh;
-    margin-bottom: 0.5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 #ic_2 {
@@ -202,7 +205,7 @@ a>div {
     padding: 0.5vw;
     margin: 0;
     box-sizing: border-box;
-    width: 25vw;
+    width: 39vw;
     background-color: white;
     height: 100%;
     top: 0;
@@ -231,10 +234,14 @@ a>div {
 }
 
 .hidden-menu-ticker:checked~.btn-menu {
-    left: 19.5vw;
+    left: 35vw;
     top: -.05vh
 }
 
 .hidden-menu-ticker:checked~.hidden-menu {
     left: 0;
+}
+
+header {
+    margin-bottom: 5vh;
 }
