@@ -48,7 +48,16 @@
     }
 }
 
-@media(min-device-width:1024px) or (max-device-width:768px) {
+@media (max-device-width:768px) {
+    .block,
+    .name,
+    .langs,
+    #blin {
+        border-radius: 10vw;
+    }
+}
+
+@media(min-device-width:1024px) {
     .block,
     .name,
     .langs,
