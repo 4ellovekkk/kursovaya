@@ -1,0 +1,130 @@
+@media (min-device-width:590px) {
+    body {
+        font-size: 9px;
+    }
+}
+
+body {
+    width: 99vw;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98vw;
+    height: 67vh;
+}
+
+body>.container>* {
+    margin: 2vh 0.2vw 0.3vh 0.2vw;
+}
+
+.position {
+    flex: 1 1;
+    width: 90%;
+    height: fit-content;
+    border: 2px solid black;
+    border-radius: 1.9vw;
+    margin: 2vh 1vw 0 1vw;
+    padding: 1vh 1vw 1vh 1vw;
+}
+
+.param {
+    margin: 0.3vh 0.2vw 0.3vh 0.2vw;
+    font-size: 1.17em;
+    height: 3vh;
+}
+
+#line {
+    border-left: 1px solid black;
+    height: 16vh;
+    margin-left: 0.3vh;
+}
+
+#minus {
+    border: 1px solid black;
+    width: 1.8vw;
+    height: 2.5vh;
+    line-height: 2.5vh;
+    border-radius: 2vw;
+    text-align: center;
+    margin-left: 0.1vw;
+    margin-right: 0.1vw;
+}
+
+input {
+    width: 2.5vw;
+    height: 1.5vh;
+}
+
+#amount {
+    margin-top: 3.5vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    width: 16vw;
+    height: 3vh;
+}
+
+#pay {
+    break-after: always;
+}
+
+div>input {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#main_button {
+    border: 1px solid black;
+    border-radius: 2vh;
+    width: fit-content;
+    padding: 0.1vh 0.1vw 0.1vh 0.1vw;
+    height: 3vh;
+    line-height: 3vh;
+    text-align: center;
+}
+
+input+div {
+    margin-left: 0.2vw;
+}
+
+#plus {
+    margin: 0.4vh 0.2vw 0.4vh 0.2vw;
+    width: fit-content;
+    padding: 0.4vh 0.4vw 0.4vh 0.4vw;
+    height: 6vh;
+    padding-left: 0.3vw;
+    padding-right: 0.3vw;
+    border: 1px solid black;
+    border-radius: 10vh;
+    align-self: flex-start;
+    text-align: center;
+    font-size: 1em;
+    line-height: 2.9vh;
+}
+
+figure {
+    width: 80%;
+    height: 30%;
+}
+
+figcaption {
+    width: 100%;
+    height: 30%;
+}
+
+figure>img {
+    height: 16vh;
+    width: 10vw;
+}
+
+.position>* {
+    margin: 0.5vh 0.5vw 0.5vh 0.5vw;
+}
+
+#knopki {
+    position: relative;
+}

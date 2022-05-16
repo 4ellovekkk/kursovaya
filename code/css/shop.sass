@@ -1,8 +1,10 @@
+%borders
+	 border: 1px solid black
+	 border-radius: 2vw
 .card 
 	flex: 1 1 4vw 
 	height: 46vh 
-	border: 1px solid black 
-	border-radius: 2vh 
+	@extend %borders
 	margin: 2vw 1vw 0.5vw 1vw 
 	padding: 1vw 1vw 1vw 1vw 
 	align-items: center 
@@ -30,8 +32,7 @@ figure
 .pages 
 	width: 2vw 
 	height: 2vw 
-	border: 1px solid black 
-	border-radius: 0.5vw 
+	@extend %borders
 	margin: 0.4vw 0.4vw 0.4vw 0.4vw 
 	text-align: center 
 	line-height: 2vw 
@@ -45,8 +46,7 @@ figure
 	position: sticky 
 	margin-top: 1vh 
 	padding: 0 0.2vw 0 0.2vw 
-	border: 1px solid black 
-	border-radius: 2vw 
+	@extend %borders
 	width: fit-content 
 	height: 3vw 
 	text-align: center 

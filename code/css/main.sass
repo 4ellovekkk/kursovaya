@@ -15,10 +15,9 @@ body
 	height: 60vh 
 section 
 	flex: 1 1 25vw 
-	border: 1px solid black 
 	height: fit-content 
 	width: 30vw 
-	border-radius: 1.5vw 
+	@extend %borders
 	box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3) 
 	background: rgba(255, 255, 255, 0.5) 
 	margin: 0.2vh 0.2vw 0.2vh 0.2vw 
@@ -29,3 +28,6 @@ section
 		font-size: 1.17em 
 		padding: 0.1vh 0.2vw 0.1vh 0.2vw 
 		white-space: pre-wrap 
+%borders
+	 border: 1px solid black
+	 border-radius: 2vw

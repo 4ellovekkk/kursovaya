@@ -1,7 +1,6 @@
 .main_obl 
 	height: 69vh 
-	border: 2px solid black 
-	border-radius: 2vw 
+	@extend %borders
 	display: flex 
 	justify-content: center 
 	align-content: center 
@@ -12,3 +11,6 @@ div
 			text-align: center 
 			margin: 1vh 0.5vw 1vh 0.5vw 
 			font-size: 5vh 
+%borders
+	 border: 1px solid black
+	 border-radius: 2vw

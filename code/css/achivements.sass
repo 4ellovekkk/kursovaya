@@ -1,11 +1,13 @@
+%borders
+	 border: 1px solid black
+	 border-radius: 2vw
 .container 
 	height: 69vh 
 	display: flex 
 	flex-wrap: wrap 
 .medals 
 	flex: 1 1 
-	border: 1px solid black 
-	border-radius: 30px 
+	@extend %borders
 	flex-direction: column 
 	font-size: 1.3em 
 	margin: 0.7vh 0.5vw 0.7vh 0.5vw 
@@ -33,13 +35,13 @@ figure
 figcaption 
 	margin-top: 5vh 
 	width: 20vw 
-@media(min-device-width 
-	&:1024px) 
-		.container {
-        height: 71vh 
-} 
-	@media(min-device-width 
-		&:768px) 
-			.container {
-        height: 73vh 
-			}
+// @media(min-device-width 
+// 	&:1024px) 
+// 		.container {
+//         height: 71vh 
+// } 
+// 	@media(min-device-width 
+// 		&:768px) 
+// 			.container {
+//         height: 73vh 
+// 			}
