@@ -1,0 +1,88 @@
+.add, .pages, .card {
+  border: 1px solid black;
+  border-radius: 2vw;
+}
+
+.card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 4vw;
+          flex: 1 1 4vw;
+  height: 46vh;
+  margin: 5vw 1.5vw 5vw 1.5vw;
+  padding: 1vw 1vw 1vw 1vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+.card:hover {
+  -webkit-transform: scale(110%);
+          transform: scale(110%);
+}
+
+#main_obl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.card > div > a {
+  margin: 1vw 1vw 1vw 1vw;
+  font-size: 2vh;
+}
+
+figcaption {
+  font-size: 2vh;
+}
+
+figure {
+  height: 29vh;
+}
+figure > img {
+  width: 60%;
+  height: 60%;
+}
+
+.pages {
+  width: 4vw;
+  height: 4vh;
+  margin: 0.4vw 0.4vw 0.4vw 0.4vw;
+  text-align: center;
+  line-height: 4vh;
+}
+
+#buttons {
+  margin-top: 2vh;
+  width: 6vw;
+  -webkit-column-break-before: always;
+     -moz-column-break-before: always;
+          break-before: always;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.add {
+  position: sticky;
+  margin-top: 1vh;
+  padding: 0 0.2vw 0 0.2vw;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 5vh;
+  text-align: center;
+  line-height: 5vh;
+}

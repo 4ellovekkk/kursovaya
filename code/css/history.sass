@@ -1,8 +1,9 @@
 %borders
-	 border: 1px solid black
-	 border-radius: 2vw
+	border: 1px solid black
+	border-radius: 2vw
+$font:2vh
 .container 
-	height: 69vh 
+	margin-top: 5vh
 	display: flex 
 	flex-direction: row 
 	flex-wrap: wrap 
@@ -13,30 +14,18 @@ figure
 .inf_block 
 	flex: 1 1 18vw 
 	height: fit-content 
-	margin: 2vw 0.5vw 0.5vh 0.5vw 
+	margin: 5vw 0.5vw 0.5vh 0.5vw 
 	padding: 0.5vw 0.5vw 0.5vh 0.5vw 
 	@extend %borders
-	font-size: 1.4em 
+	font-size: $font
 #batya 
 	flex-shrink: 1 
 	break-after: always 
 	width: fit-content 
 	height: fit-content 
-	margin: 2vw 0.5vw 0.5vh 0.5vw 
+	margin: 5vw 0.5vw 0.5vh 0.5vw 
 	padding: 0.5vw 0.5vw 0.5vh 0.5vw 
 	@extend %borders
-	font-size: 1.4em 
+	font-size: $font
 figcaption 
-	width: 13vw 
-// @media(max-width 
-// 	&:1024px) 
-// 		.container
-//     {
-//         height: 71vh 
-// 	} 
-// 	@media(max-width 
-// 		&:768px) 
-// 			.container
-//     {
-//         height: 73vh 
-// 	}
+	width: 13vw

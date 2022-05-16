@@ -1,3 +1,14 @@
+#plus, #main_button, #minus, .position {
+  border: 1px solid black;
+  border-radius: 2vw;
+}
+
+body {
+  width: 99vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,8 +31,6 @@ body > .container > * {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border: 2px solid black;
-  border-radius: 1.9vw;
   margin: 2vh 1vw 0 1vw;
   padding: 1vh 1vw 1vh 1vw;
 }
@@ -31,7 +40,7 @@ body > .container > * {
 
 .param {
   margin: 0.3vh 0.2vw 0.3vh 0.2vw;
-  font-size: 1.17em;
+  font-size: 2vh;
   height: 3vh;
 }
 
@@ -42,11 +51,9 @@ body > .container > * {
 }
 
 #minus {
-  border: 1px solid black;
   width: 1.8vw;
   height: 2.5vh;
   line-height: 2.5vh;
-  border-radius: 2vw;
   text-align: center;
   margin-left: 0.1vw;
   margin-right: 0.1vw;
@@ -90,8 +97,6 @@ div > input {
 }
 
 #main_button {
-  border: 1px solid black;
-  border-radius: 2vh;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -110,12 +115,10 @@ div > input {
   height: 6vh;
   padding-left: 0.3vw;
   padding-right: 0.3vw;
-  border: 1px solid black;
-  border-radius: 10vh;
   -ms-flex-item-align: start;
       align-self: flex-start;
   text-align: center;
-  font-size: 1em;
+  font-size: 2vh;
   line-height: 2.9vh;
 }
 
@@ -125,7 +128,7 @@ figure {
 }
 figure > img {
   height: 16vh;
-  width: 10vw;
+  width: 16vh;
 }
 
 figcaption {

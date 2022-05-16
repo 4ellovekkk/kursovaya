@@ -1,5 +1,6 @@
 body 
 	justify-content: center 
+$font:2vh
 #spasibo 
 	flex: 1 1 auto 
 	text-align: center 
@@ -8,7 +9,7 @@ body
 	height: 20vh 
 	@extend %borders
 	opacity: 70% 
-	font-size: 1.67em 
+	font-size: $font
 	width: max-content 
 #links 
 	flex: 1 1 60vw 
@@ -21,12 +22,12 @@ div#spasibo
 		width: max-content 
 		margin-top: 1vh 
 		color: blue 
-		font-size: 1em 
+		font-size: 1rem 
 .container 
 	display: flex 
 	flex-wrap: wrap 
 	width: 99vw 
 	height: 70vh 
 %borders
-	 border: 1px solid black
-	 border-radius: 2vw
+	border: 1px solid black
+	border-radius: 2vw

@@ -1,0 +1,57 @@
+#batya, .inf_block {
+  border: 1px solid black;
+  border-radius: 2vw;
+}
+
+.container {
+  margin-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+figure {
+  width: 15vw;
+}
+figure > img {
+  width: 13vw;
+}
+
+.inf_block {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 18vw;
+          flex: 1 1 18vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 5vw 0.5vw 0.5vh 0.5vw;
+  padding: 0.5vw 0.5vw 0.5vh 0.5vw;
+  font-size: 2vh;
+}
+
+#batya {
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -webkit-column-break-after: always;
+     -moz-column-break-after: always;
+          break-after: always;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 5vw 0.5vw 0.5vh 0.5vw;
+  padding: 0.5vw 0.5vw 0.5vh 0.5vw;
+  font-size: 2vh;
+}
+
+figcaption {
+  width: 13vw;
+}

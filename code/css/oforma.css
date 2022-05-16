@@ -1,0 +1,54 @@
+body {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#spasibo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  text-align: center;
+  margin-top: 2vh;
+  margin-left: 1vw;
+  height: 20vh;
+  opacity: 70%;
+  font-size: 2vh;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+#links {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 60vw;
+          flex: 1 1 60vw;
+  position: absolute;
+  top: 30vh;
+}
+
+div#spasibo > a {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 1vh;
+  color: blue;
+  font-size: 1rem;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 99vw;
+  height: 70vh;
+}
+
+#spasibo {
+  border: 1px solid black;
+  border-radius: 2vw;
+}

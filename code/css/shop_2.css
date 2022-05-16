@@ -1,0 +1,23 @@
+.main_obl {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 10vh 2vw 0 2vw;
+}
+
+div.main_obl > a {
+  text-align: center;
+  margin: 1vh 0.5vw 1vh 0.5vw;
+  font-size: 5vh;
+}
+
+.main_obl {
+  border: 1px solid black;
+  border-radius: 2vw;
+}

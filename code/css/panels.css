@@ -1,10 +1,14 @@
+.block {
+  border: 1px solid black;
+  border-radius: 2vw;
+}
+
 body {
-  font-size: 11px;
+  font-family: -apple-system, "SF Compact Rounded";
 }
 
 .name {
   margin: 0 0.1vw 0 0.1vw;
-  font-size: 12px;
   position: absolute;
   left: 20vw;
   top: 0;
@@ -19,7 +23,7 @@ body {
   height: -moz-fit-content;
   height: fit-content;
   text-align: center;
-  font-size: 1.67em;
+  font-size: 3vh;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -36,16 +40,8 @@ body {
   border-radius: 10vw;
 }
 
-.cont,
-.container,
-.main_obl {
-  height: 73vh;
-}
-
 .block {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 2px solid black;
-  border-radius: 2vw;
   opacity: 90%;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -54,7 +50,7 @@ body {
   height: -moz-fit-content;
   height: fit-content;
   text-align: center;
-  font-size: 1.17em;
+  font-size: 2vh;
   padding: 0.2vw 0.2vw 0.2vw 0.2vw;
   -webkit-box-flex: 2;
       -ms-flex: 2 2 3.3vw;
@@ -71,8 +67,8 @@ a {
   text-decoration: none;
 }
 a > svg {
-  height: 2vw;
-  width: 2.5vw;
+  height: 5vh;
+  width: 5vw;
   margin: 1vh 0.5vw 1vh 0.5vw;
 }
 a:visited {
@@ -95,9 +91,21 @@ a > div {
 }
 
 svg {
-  height: 2.2vw;
-  width: 2.5vw;
+  height: 5vh;
+  width: 5vw;
   margin: 1vh 0.5vw 1vh 0.5vw;
+}
+
+#ic_1,
+#ic_2,
+#ic_3 {
+  background-size: contain;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 2.5vw;
+          flex: 0 1 2.5vw;
+  line-height: 2.5vw;
+  padding-left: 2.2vw;
+  margin-left: 0.9vw;
 }
 
 #ic_1 {
@@ -105,18 +113,22 @@ svg {
   background-size: contain;
   margin-top: 10px;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 1.1vw;
-          flex: 0 1 1.1vw;
+      -ms-flex: 0 1 2.5vw;
+          flex: 0 1 2.5vw;
   padding-left: 2vw;
-  margin-left: 1vw;
-  line-height: 1.8vw;
 }
 
 #ic_1,
 #ic_2,
 #ic_3 {
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+#ic_1 a,
+#ic_2 a,
+#ic_3 a {
+  font-size: 1.5vh;
+  margin-left: 2vh;
 }
 
 #ic_2 {
@@ -124,9 +136,9 @@ svg {
   background: url("../pics/email_up.png") no-repeat;
   background-size: contain;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 1.1vw;
-          flex: 0 1 1.1vw;
-  line-height: 2vw;
+      -ms-flex: 0 1 2.5vw;
+          flex: 0 1 2.5vw;
+  line-height: 2.5vw;
   margin-left: 0.9vw;
   padding-left: 2.2vw;
 }
@@ -134,13 +146,7 @@ svg {
 #ic_3 {
   background: url("../pics/phone_up.png") no-repeat;
   background-size: contain;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 1.1vw;
-          flex: 0 1 1.1vw;
-  line-height: 2vw;
-  padding-left: 2.2vw;
   margin-bottom: 0.5vh;
-  margin-left: 0.9vw;
 }
 
 .head {
@@ -159,7 +165,7 @@ svg {
   vertical-align: middle;
   -ms-flex-item-align: start;
       align-self: flex-start;
-  font-size: 1.34em;
+  font-size: 2vh;
 }
 
 .hidden-menu {
@@ -170,7 +176,7 @@ svg {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 39vw;
+  width: 43vw;
   background-color: white;
   height: 100%;
   top: 0;
@@ -188,7 +194,7 @@ svg {
   display: none;
 }
 .hidden-menu-ticker:checked ~ .btn-menu {
-  left: 35vw;
+  left: 33vw;
   top: -0.05vh;
 }
 .hidden-menu-ticker:checked ~ .hidden-menu {

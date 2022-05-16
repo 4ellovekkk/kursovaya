@@ -1,11 +1,12 @@
+$font:2vh
 %borders
-	 border: 1px solid black
-	 border-radius: 2vw
+	border: 1px solid black
+	border-radius: 2vw
 .card 
 	flex: 1 1 4vw 
 	height: 46vh 
 	@extend %borders
-	margin: 2vw 1vw 0.5vw 1vw 
+	margin: 5vw 1.5vw 5vw 1.5vw 
 	padding: 1vw 1vw 1vw 1vw 
 	align-items: center 
 	transition: all 500ms ease-out 
@@ -21,23 +22,23 @@ div
 		& > div 
 			& > a 
 				margin: 1vw 1vw 1vw 1vw 
-				font-size: 1.4em 
+				font-size: $font
 figcaption 
-	font-size: 1.4em 
+	font-size: $font
 figure 
 	height: 29vh 
 	& > img 
-		width: 12vw 
-		height: 20.3vh 
+		width: 60% 
+		height: 60% 
 .pages 
-	width: 2vw 
-	height: 2vw 
+	width: 4vw 
+	height: 4vh 
 	@extend %borders
 	margin: 0.4vw 0.4vw 0.4vw 0.4vw 
 	text-align: center 
-	line-height: 2vw 
+	line-height: 4vh 
 #buttons 
-	margin-top: 1.2vh 
+	margin-top: 2vh 
 	width: 6vw 
 	break-before: always 
 	display: flex 
@@ -48,6 +49,6 @@ figure
 	padding: 0 0.2vw 0 0.2vw 
 	@extend %borders
 	width: fit-content 
-	height: 3vw 
+	height: 5vh 
 	text-align: center 
-	line-height: 3vw 
+	line-height: 5vh 
