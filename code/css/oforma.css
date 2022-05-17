@@ -14,7 +14,7 @@ body {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   text-align: center;
-  margin-top: 2vh;
+  margin-top: 5vh;
   margin-left: 1vw;
   height: 20vh;
   opacity: 70%;
@@ -44,6 +44,7 @@ body {
 }
 
 .container {
+  margin-top: 5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

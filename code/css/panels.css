@@ -188,6 +188,11 @@ svg {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
+@media (max-device-width: 400px) {
+  .hidden-menu {
+    width: 55vw;
+  }
+}
 
 .hidden-menu-ticker {
   display: none;
@@ -198,6 +203,15 @@ svg {
 }
 .hidden-menu-ticker:checked ~ .hidden-menu {
   left: 0;
+}
+@media (max-device-width: 400px) {
+  .hidden-menu-ticker:checked ~ .btn-menu {
+    left: 47vw;
+    top: -0.05vh;
+  }
+  .hidden-menu-ticker:checked ~ .hidden-menu {
+    left: 0;
+  }
 }
 
 .btn-menu {

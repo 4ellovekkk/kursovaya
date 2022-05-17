@@ -37,6 +37,7 @@ section {
   height: -moz-fit-content;
   height: fit-content;
   width: 30vw;
+  overflow: scroll;
   -webkit-box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3);
           box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3);
   background: rgba(255, 255, 255, 0.5);
@@ -44,7 +45,7 @@ section {
 }
 section > h1 {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.6vh;
 }
 section > p {
   font-size: 2vh;

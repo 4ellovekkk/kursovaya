@@ -128,6 +128,8 @@ svg
 	z-index: 2 
 	transform: translateZ(0) 
 	backface-visibility: hidden 
+	@media (max-device-width:400px)		
+		width: 55vw
 .hidden-menu-ticker 
 	display: none 
 	&:checked 
@@ -136,6 +138,13 @@ svg
 			top: -.05vh 
 		& ~ .hidden-menu 
 			left: 0 
+	@media (max-device-width:400px)
+			&:checked 
+				& ~ .btn-menu 
+					left: 47vw 
+					top: -.05vh 
+				& ~ .hidden-menu 
+					left: 0 
 .btn-menu 
 	padding: 0.4vh 
 	position: absolute 
