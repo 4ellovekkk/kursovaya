@@ -82,7 +82,7 @@ figure > img {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: 5vh;
+  height: 4vh;
   text-align: center;
-  line-height: 5vh;
+  line-height: 4vh;
 }
