@@ -1,3 +1,8 @@
+#spasibo {
+  border: 1px solid black;
+  border-radius: 2vw;
+}
+
 body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -27,7 +32,7 @@ body {
   top: 30vh;
 }
 
-div#spasibo > a {
+#spasibo > a {
   margin-left: 3vw;
   margin-right: 3vw;
   width: -webkit-max-content;
@@ -46,9 +51,4 @@ div#spasibo > a {
       flex-wrap: wrap;
   width: 99vw;
   height: 70vh;
-}
-
-#spasibo {
-  border: 1px solid black;
-  border-radius: 2vw;
 }
