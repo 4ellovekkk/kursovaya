@@ -20,7 +20,9 @@ section
 	flex: 1 1 25vw 
 	height: fit-content 
 	width: 30vw 
-	overflow: scroll
+	overflow:hidden
+	@media (max-device-width:400px)
+		overflow: scroll
 	@extend %borders
 	box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3) 
 	background: rgba(255, 255, 255, 0.5) 
